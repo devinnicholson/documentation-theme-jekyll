@@ -57,20 +57,76 @@ entries:
     folderitems:
 
   - title: Using DHF
-    output: web, pdf
-
+    output: web
     folderitems:
-    - title: Create a Project
-      url: /mydoc_create_project.html
+
+    - title: 
+      url: 
       output: web, pdf
 
-    - title: Ingest
-      url: /mydoc_ingest.html
-      output: web, pdf
+      subfolders:
+      - title: Create a Project
+        output: web
+        subfolderitems:
 
-    - title: Harmonize
-      url: /mydoc_harmonize.html
+        - title: QuickStart
+          url: /mydoc_quickstart.html
+          output: web
+        
+        - title: Gradle Plugin
+          url: /mydoc_gradle_plugin.html
+          output: web
+    
+    - title: 
+      url: 
       output: web, pdf
+      
+      subfolders:
+      - title: Ingest
+        output: web
+        subfolderitems:
+
+        - title: QuickStart
+          url: /mydoc_quickstart.html
+          output: web
+        
+        - title: MLCP
+          url: /mydoc_gradle_plugin.html
+          output: web
+    
+        - title: Java Client API
+          url: /mydoc_java_client_API.html
+          output: web
+        
+        - title: MLCP
+          url: /mydoc_rest_client_API.html
+          output: web
+
+    - title: 
+      url: 
+      output: web
+
+      subfolders:
+      - title: Harmonize
+        output: web
+        subfolderitems:
+
+        - title: QuickStart
+          url: /mydoc_harmonize_quickstart.html
+          output: web
+        
+        - title: Gradle
+          url: /mydoc_gradle.html
+          output: web
+    
+        - title: Java Library
+          url: /mydoc_java_library.html
+          output: web
+        
+        - title: REST
+          url: /mydoc_REST.html
+          output: web
+      
 
     - title: Serve (REST, ODBC)
       url: /mydoc_serve.html
