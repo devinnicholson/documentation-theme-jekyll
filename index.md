@@ -1,18 +1,17 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
-keywords: sample homepage
-tags: [getting_started]
+title: "Data Hub Framework"
+toc: false
+keywords: 
+tags:
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
 ---
-
 
 ## What is an Operational Data Hub?
 
-A Data Hub is a consolidated repository of data that breaks down data silos. The Operational Data Hub pattern is a particular way of building Data Hubs, which allows for faster, more agile data integration into a single Hub. Because it is Operational, an Operational Data Hub allows real-time, interactive access to data. This means that shared services can be run off the Data Hub in addition to analytic reports.
+A Data Hub is a consolidated repository of data that breaks down data silos. The Operational Data Hub pattern is a particular way of building Data Hubs, which allows for faster, more agile data integration into a single Hub. Because it is **Operational**, an Operational Data Hub allows real-time, interactive access to data. This means that shared services can be run off the Data Hub in addition to analytic reports.
 
-Put simply, an Operational Data Hub is a silo-busting approach that focuses on agility and allows an enterprise to “run the business” by providing real-time RESTful services, as well as supporting “see the business” through analytics, reporting and downstream data exports.
+Put simply, an Operational Data Hub is a silo-busting approach that focuses on agility and allows an enterprise to **“run the business”** by providing real-time RESTful services, as well as supporting **“see the business”** through analytics, reporting and downstream data exports.
 
 By grouping all the data about an entity into one consolidated record (with context and history) a Data Hub provides a 360° view of data, across silos.
 
@@ -32,20 +31,18 @@ The DHF does this by both running key operations itself, and also generating cod
 
 ## How Do I get Started?
 
-1. If you are new to MarkLogic start here.
-2. Read through the Understanding DHF links on the left to get up to speed on the high level concepts.
-3. Work through the Tutorial to get your hands on the tool.
+1. If you are new to MarkLogic start [here](http://www.marklogic.com/what-is-marklogic/).
+2. Read through the [Understanding DHF](https://marklogic.github.io/marklogic-data-hub/understanding/) links on the left to get up to speed on the high level concepts.
+3. Work through the [Tutorial](https://marklogic.github.io/marklogic-data-hub/tutorial/) to get your hands on the tool.
 
 ## How Do I Ask a Question or Send Feedback?
 
-#### Have a question?
+### Have a question?
 Someone else might have already asked.
 
-1. Look at our Stack Overflow Questions
-2. Look at our GitHub Issues
-3. Still can’t find an answer? Use the #marklogic-dhf tag on StackOverflow to ask us.
+1. Look at our [Stack Overflow Questions](https://stackoverflow.com/questions/tagged/marklogic-dhf).
+2. Look at our [GitHub Issues](https://github.com/marklogic/marklogic-data-hub/issues).
+3. Still can’t find an answer? Use the [#marklogic-dhf tag on StackOverflow](https://stackoverflow.com/questions/ask?tags=marklogic-dhf) to ask us.
 
-#### Found a bug? Have a comment?
-File an issue on Github and we will see it.
-
-{% include links.html %}
+### Found a bug? Have a comment?
+[File an issue on Github](https://github.com/marklogic/marklogic-data-hub/issues/new) and we will see it.
