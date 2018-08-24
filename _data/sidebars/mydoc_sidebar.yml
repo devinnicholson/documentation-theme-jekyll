@@ -60,7 +60,7 @@ entries:
     output: web
     folderitems:
 
-    - title: 
+    - title: Overview
       url: 
       output: web, pdf
 
@@ -77,11 +77,6 @@ entries:
           url: /mydoc_gradle_plugin.html
           output: web
     
-    - title: 
-      url: 
-      output: web, pdf
-      
-      subfolders:
       - title: Ingest
         output: web
         subfolderitems:
@@ -102,11 +97,6 @@ entries:
           url: /mydoc_rest_client_API.html
           output: web
 
-    - title: 
-      url: 
-      output: web
-
-      subfolders:
       - title: Harmonize
         output: web
         subfolderitems:
